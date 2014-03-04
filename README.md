@@ -18,7 +18,7 @@ For instance, if I wanted to check if the Device has wifi and Mobile Broadband N
 ```
 
 ConnectivityManager manager = (ConnectivityManager) 
-							c.getSystemService(Context.CONNECTIVITY_SERVICE);
+				context.getSystemService(Context.CONNECTIVITY_SERVICE);
 NetworkInfo networkInfo = manager.getNetworkInfo(ConnectivityManager.TYPE_WIFI); 
 		   
 boolean wifiOn =  networkInfo.isConnected();
@@ -33,6 +33,6 @@ Now I only have to:
 ```
 EnvironmentChecker checker = new EnvironmentChecker(context);
 boolean wifiOn = checker.isWifiEnabled(context);
-boolean mobileNetworkOn = checker
+boolean mobileNetworkOn = checker.isMobileNetworkEnabled(context);
 
 ```
