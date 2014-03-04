@@ -8,7 +8,7 @@ As we know, for a proper app Development, usualy we should check for somedevice 
 
 ##Objectives
 * Ensure proper encapsulation of the tasks by putting them altogether in a class and each of them going inside a method;
-* Provide a very simple api through which some basic (but some thimes boring) taks can be done quickly
+* Provide a very simple api through which some basic (but some times boring) tasks can be done quickly
 * Help to accelerate the app development process [ well, not too much ;) ]
 
 
